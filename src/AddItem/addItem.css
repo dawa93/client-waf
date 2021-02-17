@@ -1,0 +1,160 @@
+ul {
+  padding: 0px;
+}
+
+.greenBox {
+  background-color: #4a7575;
+  position: absolute;
+  max-width: 80%;
+  height: 80%;
+  margin: auto;
+  top: 6rem;
+  bottom: 24px;
+  left: 24px;
+  right: 24px;
+  z-index: 1;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+}
+.userInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 40px 80px 24px 80px;
+  padding-bottom: 8px;
+  border-bottom: solid 4px #fafafa;
+}
+.username {
+  color: #fafafa;
+  font-size: 24px;
+  font-weight: bold;
+}
+.backBtn {
+  cursor: pointer;
+  color: #fafafa;
+}
+
+.inputArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px 80px;
+  padding-bottom: 16px;
+  border-bottom: solid 4px #fafafa;
+  color: #fafafa;
+}
+.input {
+  padding: 4px;
+  margin: 0px 8px;
+  color: #346464;
+}
+.Item__btn {
+  display: inline-block;
+  cursor: pointer;
+  background: #b3aa9f;
+  border: 1px solid #b3aa9f;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+  line-height: 24px;
+  color: #fafafa;
+  margin-right: 10px;
+  padding: 0px;
+}
+
+.listBox {
+  display: flex;
+  justify-content: center;
+  color: #fafafa;
+  margin: auto;
+  height: 320px;
+  width: 640px;
+  overflow-y: auto;
+}
+.listBox li {
+  display: flex;
+  justify-content: space-between;
+}
+.listBox li div {
+  display: flex;
+  width: 120px;
+  text-align: start;
+  margin: 4px 8px;
+}
+
+.addItemBtn {
+  margin: 0px 88px 40px 88px;
+  padding: 4px;
+  outline: none;
+  background: #c4c4c4;
+  cursor: pointer;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  height: 45px;
+}
+
+@media screen and (min-width: 3072px) {
+  .userInfo {
+    margin: 7rem 5rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    padding-bottom: 8px;
+  }
+  .username {
+    font-size: 3.2rem;
+  }
+  .inputArea {
+    margin: 2rem 5rem;
+    padding-bottom: 16px;
+    font-size: 2.2rem;
+  }
+  .input {
+    padding: 4px;
+    margin: 0px 1rem;
+    color: #346464;
+    width: 20rem;
+    height: 4rem;
+    font-size: 2.2rem;
+  }
+  .checkbox {
+    width: 4rem;
+  }
+  .Item__btn {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    font-weight: bold;
+    background: rgb(212, 57, 57);
+    border: 1px solid rgb(212, 57, 57);
+    color: #fafafa;
+    margin-right: 10px;
+    padding: 0px;
+  }
+  .listBox {
+    font-size: 2.8rem;
+    width: 80rem;
+    margin-top: 7rem;
+  }
+  .listBox li div {
+    width: 15rem;
+  }
+
+  .addItemBtn {
+    margin: 0px 88px 40px 88px;
+    padding: 4px;
+    outline: none;
+    background: #c4c4c4;
+    cursor: pointer;
+    border: none;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 6rem;
+  }
+}
+@media screen and (min-width: 3840px) {
+}
